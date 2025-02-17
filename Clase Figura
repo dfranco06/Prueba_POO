@@ -35,7 +35,7 @@ def solicitar_datos():
         else:
             print("No se pudo calcular el área para esta figura.")
     except ValueError:
-        print("Entrada no válida. Asegúrese de ingresar números enteros para los lados y números para la longitud.")
+        print("Entraa no válida. Asegúrese de ingresar números enteros para los lados y números para la longitud.")
 
 if __name__ == "__main__":
     solicitar_datos()
